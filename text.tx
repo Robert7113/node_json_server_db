@@ -18,3 +18,13 @@ Luego de crear nuestra "Base de Datos", vamos a configurar lo siguiente en el ar
 
 
 Con esto le estamos diciendo que inicie el json-server y que vea el archivo db.json
+
+//////////////////01:36:57 Postman///
+
+Metodos http
+
+Get-Obtener
+Post-Crear uno nuevo
+put-Reemplazar un recurso //usamos id//Escribimos la nueva clave que queremos agregar a al objeto
+Path-Para actualizarlo temporalment //usamos id y buscamos la clave que queremos actualizarlo
+Delete-Eliminaro //usamos id, con tener solo el id, podemos borrarlo.
