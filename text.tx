@@ -1,0 +1,20 @@
+01:28:05 PRACTICA 1: json-server
+
+npm i json-server
+
+JSON Server es una herramienta que te permite crear rápidamente una API REST simulada utilizando un simple archivo JSON como base de datos. Es muy útil para desarrollo y pruebas sin necesidad de configurar una base de datos real.
+
+🚀 ¿Para qué sirve JSON Server?
+Simular una API REST sin escribir código backend.
+Probar aplicaciones frontend que consumen datos de una API.
+Realizar pruebas rápidas sin necesidad de un servidor real.
+
+Tambien debes crear un archivo db.json,eso simulara nuestra base de datos.
+
+Luego de crear nuestra "Base de Datos", vamos a configurar lo siguiente en el archivo package.json
+"scripts": {
+    "start": "json-server --watch db.json"
+  },
+
+
+Con esto le estamos diciendo que inicie el json-server y que vea el archivo db.json

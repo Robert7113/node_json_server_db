@@ -1,0 +1,69 @@
+{
+  "profesores": [
+    {
+      "nombre": "Sandra",
+      "Apellido": "Burgos",
+      "materias": [
+        {
+          "nombre": "Node.js desde cero"
+        },
+        {
+          "nombre": "JavaScript desde cero"
+        },
+        {
+          "nombre": "Python intermedio"
+        }
+      ],
+      "id": "accd"
+    }
+  ],
+  "alumnos": [
+    {
+      "nombre": "maria",
+      "apellido": "Barragan",
+      "promedio": 6.8,
+      "id": "e4ee"
+    },
+    {
+      "nombre": "roberto",
+      "apellido": "Gonzalez",
+      "promedio": 8.8,
+      "id": "70d2"
+    },
+    {
+      "nombre": "Laura",
+      "apellido": "Barragan",
+      "promedio": 4.4,
+      "id": "036a"
+    },
+    {
+      "id": "d136"
+    },
+    {
+      "id": "0768",
+      "nombre": "Mirando",
+      "apellido": "salazar",
+      "promedio": 6.8
+    }
+  ],
+  "cursos": [
+    {
+      "nombre": "Node.js desde cero",
+      "duracion": 8,
+      "dificultad": "baja",
+      "id": "9258"
+    },
+    {
+      "nombre": "JavaScript desde cero",
+      "duracion": 8,
+      "dificultad": "baja",
+      "id": "5385"
+    },
+    {
+      "nombre": "Python intermedio",
+      "duracion": 12,
+      "dificultad": "intermedia",
+      "id": "7ea4"
+    }
+  ]
+}
